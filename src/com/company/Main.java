@@ -13,7 +13,12 @@ public class Main {
         // The albums will be stored in an ArrayList
         // Songs from different albums can be added to the playlist and will appear in the list in the order
         // they are added.
-        // Once the songs have been added to the playlist
+        // Once the songs have been added to the playlist, create a menu of options to:-
+        // Quit, Skip forward to the next song, skip backwards to a previous song. Replay the current song.
+        // List the songs in the playlist
+        // A song must exist in an album before it can be added to the playlist (so you can only play songs that
+        // you own).
+        // As an optional extra, provide an option to remove the current song from the playlist.
 
         Album album = new Album("Stormbringer", "Deep Purple");
         album.addSong("Stormbringer", 4.6);
